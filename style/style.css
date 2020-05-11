@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    border-bottom:solid 3px black;
 }
 
 #influence h2
@@ -29,7 +30,7 @@
     color: #fff;
     font-weight: 700;
     text-align: right;
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 30px;
 }
 
@@ -38,7 +39,7 @@
     font-family: Open Sans,Arial,Helvetica,sans-serif;
     color: #ebdec2;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 18px;
     margin-bottom: 20px;
     text-align: right;
     margin-bottom: 25px;
@@ -50,23 +51,10 @@
 #influence a
 {
     display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
     text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    margin-bottom: 25px;
-    padding: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-     padding: 12px 30px;
-    font-size: 1.08rem;
+    margin-bottom: 90px;
+    padding: 12px 30px;
+    font-size: 17px;
     line-height: 1.5;
     font-weight: 400;
     background: rgba(0,0,0,.4);
@@ -88,7 +76,105 @@
     color: white;
 }
 
+#avenement{
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/LU2VY3R9P1L01586989638352.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+#avenement h2
+{
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    color: #ebdec2;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-top: 80px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#avenement h1
+{
+    font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    font-size: 47px;
+    margin-bottom: 30px;
+}
+
+#avenement p
+{
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    color: #ebdec2;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+#avenement #abonne
+{
+    display: inline-block;
+    text-align: center;
+    padding: 12px 30px;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: rgba(159, 22, 0, 0.6);
+    border: 1px solid #ea3012;
+    color: #f7b10a;
+    min-width: 180px;
+    text-transform: uppercase;
+    -webkit-transition: .2s,color .2s;
+    transition: .2s,color .2s;
+    position: relative;
+    z-index: 1;
+    margin:10px 10px 90px 0;
+
+
+}
+
+#avenement #moreinfo
+{
+    display: inline-block;
+    text-align: center;
+    padding: 12px 30px;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #f7b10a;
+    color: #f7b10a;
+    min-width: 180px;
+    text-transform: uppercase;
+    -webkit-transition: .2s,color .2s;
+    transition: .2s,color .2s;
+    position: relative;
+    z-index: 1;
+    margin:10px 10px 90px 10px;
+
+
+}
+#avenement #moreinfo:hover 
+{
+    background-color: #c77e19;
+    color: white;
+}
+
+#avenement #abonne:hover
+{
+    background-color: #9f1600;
+
+}
+
+
 body, html {
-    color: #FCD67A;
+    color: #fff;
     background: #170e09;
  
