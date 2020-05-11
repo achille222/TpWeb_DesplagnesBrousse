@@ -1,0 +1,94 @@
+.container-big
+{
+    max-width: 1280px;
+}
+
+#influence 
+{
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RLMC87YA66JR1552926015954.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+#influence h2
+{
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    color: #ebdec2;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-top: 80px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#influence h1
+{
+    font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#influence p
+{
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    color: #ebdec2;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-bottom: 25px;
+
+}
+
+
+
+#influence a
+{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 25px;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+     padding: 12px 30px;
+    font-size: 1.08rem;
+    line-height: 1.5;
+    font-weight: 400;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #f7b10a;
+    color: #f7b10a;
+    min-width: 180px;
+    text-transform: uppercase;
+    -webkit-transition: .2s,color .2s;
+    transition: .2s,color .2s;
+    position: relative;
+    z-index: 1
+
+
+
+}
+#influence a:hover 
+{
+    background-color: #b06716;
+    color: white;
+}
+
+body, html {
+    color: #FCD67A;
+    background: #170e09;
+ 
